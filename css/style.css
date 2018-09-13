@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   background-color: white;
   overflow-x: hidden;
+  margin: 0;
 }
 
 .wrapper {
@@ -15,7 +16,7 @@ body {
   background-image: url(https://www.jarrodyellets.com/images/padme/PadmeHero.jpg);
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 62.5px);
+  height: calc(100vh - 50px);
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
