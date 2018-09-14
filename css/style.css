@@ -74,6 +74,7 @@ a {
   background-image: url(https://www.jarrodyellets.com/images/padme/PadmeHero.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: calc(100vh - 50px);
   width: 100%;
   box-sizing: border-box;
