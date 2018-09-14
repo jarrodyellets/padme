@@ -22,12 +22,14 @@ body {
 .navBar {
   position: fixed;
   top: 0;
-  width: 100%;
+  right: 0;
+  width: 100vw;
   height: 50px;
   background: white;
   z-index: 1;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 a {
@@ -36,9 +38,8 @@ a {
 }
 
 .navRow {
-  max-width: 1200px;
-  width: 100%;
-  padding: 0 10px;
+  max-width: 1250px;
+  width: calc(100% - 100px);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -50,8 +51,22 @@ a {
   height: 50px;
 }
 
+.links {
+  font-size: 1em;
+  margin-right: 20px;
+  line-height: .9;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.links:hover {
+  color: var(--orange);
+}
+
 .hamburger {
   display: none;
+  text-decoration: none;
+  color: (--black);
 }
 
 .landing {
@@ -63,4 +78,29 @@ a {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px){
+
+  .brand {
+    display: none;
+  }
+
+  .navLinks {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -170px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .hamburger {
+    display: block;
+    color: var(--black);
+    font-size: 20px;
+  }
 }
