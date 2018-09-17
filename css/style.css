@@ -81,6 +81,24 @@ a {
   overflow: hidden;
 }
 
+.aboutWrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.aboutPhotos {
+  width: 60%;
+  height: 60vw;
+  background-image: url("https://www.jarrodyellets.com/images/padme/padmeabout1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aboutText {
+  width: 40%;
+}
+
 @media screen and (max-width: 768px){
 
   .brand {
