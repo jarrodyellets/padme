@@ -1,12 +1,13 @@
 :root {
   --orange: #ffb606;
   --white: #fdfdfd;
-  --black: #202020;
+  --black: #212322;
 }
 
 body {
   font-size: 16px;
-  background-color: white;
+  background-color: var(--white);
+  color: var(--black);
   overflow-x: hidden;
   margin: 0;
   font-family: 'Source Sans Pro';
@@ -26,7 +27,7 @@ body {
   width: 100vw;
   height: 50px;
   background: white;
-  z-index: 1;
+  z-index: 5;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -85,19 +86,84 @@ a {
   position: relative;
   display: flex;
   width: 100%;
+  margin-top: 25px;
 }
 
 .aboutPhotos {
-  width: 60%;
-  height: 60vw;
+  position: relative;
+  width: 55%;
+  height: 45vw;
   background-image: url("https://www.jarrodyellets.com/images/padme/padmeabout1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutMedPhoto {
+  position: absolute;
+  z-index: 1;
+  height: 35vw;
+  width: 30vw;
+  left: 0;
+  right: 0;
+  top: 5%;
+  margin: 0 auto;
+  background-image: url("https://www.jarrodyellets.com/images/padme/padmeaboutmd.png");
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.aboutSmPhoto {
+  position: absolute;
+  z-index: 2;
+  height: 20vw;
+  width: 35vw;
+  right: -10%;
+  bottom: 0;
+  margin: 0 auto;
+  background-image: url("https://www.jarrodyellets.com/images/padme/padmeabout3.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .aboutText {
+  position: relative;
   width: 40%;
 }
+
+.aboutTextDiv {
+  position: absolute;
+  width: 60%;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.aboutTitle {
+  color: var(--orange);
+  margin: 0 0 25px 0;
+}
+
+.aboutHeadline {
+  position: relative;
+  margin-top: 0;
+  margin: 0 0 25px -14vw;
+  font-size: 4.1vw;
+  text-align: right;
+}
+
+.aboutTextP {
+  position: relative;
+  padding-top: 25px;
+}
+
+.aboutLine {
+  width: 40px;
+  height: 2px;
+  background-color: var(--orange);
+}
+
 
 @media screen and (max-width: 768px){
 
