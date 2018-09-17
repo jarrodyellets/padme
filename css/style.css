@@ -157,6 +157,9 @@ a {
   position: relative;
   padding: 25px 0;
   margin: 0;
+  font-size: .9em;
+  line-height: 1.8;
+  font-weight: 700;
 }
 
 .aboutLine {
