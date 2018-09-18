@@ -1,7 +1,17 @@
 $(document).ready(function(){
-  $(window).on('scroll', function(){
-    $('.landing').css('margin-top', $(window).scrollTop() * -.3);
- 
+
+  $('.brand').click(function(){
+    scroll_to('.wrapper');
   });
+
+  $('#aboutLink').click(function(){
+    scroll_to('#about');
+  });
+
+  function scroll_to(div){
+    $('html, body').animate({
+      scrollTop: $(div).offset().top
+    }, 800, 'linear');
+  }
 
 });
