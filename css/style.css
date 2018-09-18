@@ -113,7 +113,7 @@ a {
   width: 30vw;
   left: 0;
   right: 0;
-  top: 5%;
+  top: 20%;
   margin: 0 auto;
   background-image: url("https://www.jarrodyellets.com/images/padme/padmeaboutmd.png");
   background-position: center;
@@ -141,7 +141,7 @@ a {
 .aboutTextDiv {
   position: absolute;
   width: 60%;
-  top: 20%;
+  top: 30%;
   left: 0;
   right: 0;
   margin: 0 auto;

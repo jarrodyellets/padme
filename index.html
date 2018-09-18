@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/jquery.parallax-scroll.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -37,10 +38,10 @@
       <div class="about" id="about">
         <div class="aboutWrapper">
           <div class="aboutPhotos">
-            <div class="aboutMedPhoto"></div>
-            <div class="aboutSmPhoto"></div>
+            <div class="aboutMedPhoto" data-parallax='{"y": -120}'></div>
+            <div class="aboutSmPhoto" data-parallax='{"y": -50}'></div>
           </div>
-          <div class="aboutText">
+          <div class="aboutText" data-parallax='{"y": -80}'>
             <div class="aboutTextDiv">
               <h3 class="aboutTitle">About</h3>
               <h2 class="aboutHeadline">A little Paris in Philly</h2>
