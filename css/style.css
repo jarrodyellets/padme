@@ -229,6 +229,10 @@ a {
   cursor: pointer;
 }
 
+.menu {
+  height: 100vh;
+}
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);
