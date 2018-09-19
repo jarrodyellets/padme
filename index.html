@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/scrollspy.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
     <script type="text/javascript" src="./js/jquery.parallax-scroll.js"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -19,12 +20,12 @@
       <div class="navBar">
         <div class="navRow">
             <a href="#home" class="brand"><img class="brandImg" src="https://www.jarrodyellets.com/images/padme/PadmeLogo.png" alt="padme logo"></a>
-            <div class="navLinks">
-              <a href="#about" id="aboutLink" class="links">ABOUT</a>
-              <a href="#menu" id="menuLink" class="links">MENU</a>
-              <a href="#gallery"  id="galleryLink" class="links">GALLERY</a>
-              <a href="#contact" id="contactLink" class="links">CONTACT</a>
-            </div>
+            <ul class="navLinks navigation">
+              <li class="aboutLi"><a href="#about" id="aboutLink" class="links">ABOUT</a></li>
+              <li class="menuLi"><a href="#menu" id="menuLink" class="links">MENU</a></li>
+              <li class="galleryLi"><a href="#gallery"  id="galleryLink" class="links">GALLERY</a></li>
+              <li class="contactLi"><a href="#contact" id="contactLink" class="links">CONTACT</a></li>
+            </ul>
             <a href="javascript:void(0);" class="hamburger">
               <i class="fas fa-bars"></i>
             </a>
