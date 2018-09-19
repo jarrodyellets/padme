@@ -8,6 +8,10 @@ $(document).ready(function(){
     scroll_to('#about');
   });
 
+  $(".scrollDown").click(function(){
+    scroll_to('#about');
+  })
+
   function scroll_to(div){
     $('html, body').animate({
       scrollTop: $(div).offset().top
