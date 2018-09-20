@@ -19,7 +19,7 @@ $(document).ready(function(){
   // //   });
   // // });
 
-  $('.navigation').scrollspy({animate: true, offset: -25});
+  $('.navigation').scrollspy({animate: true, offset: -100});
 
   $('.brand').click(function(){
     scroll_to('.wrapper');
