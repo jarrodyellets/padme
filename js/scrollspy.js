@@ -15,6 +15,7 @@
             var defaults = {
                 namespace: 'scrollspy',
                 activeClass: 'active',
+                scrollingClasss: 'scrolling',
                 animate: false,
                 offset: 0,
                 container: window
@@ -190,10 +191,10 @@
                                 resetClasses(links);
 
                             
-
                                 // Add our active link to our parent
-                                
                                 link.parent().addClass(options.activeClass);
+                               
+                                
                             
                                
                             

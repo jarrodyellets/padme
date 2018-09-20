@@ -61,10 +61,6 @@ body {
   color: var(--black);
 }
 
-.linksScroll {
-  color: var(--green);
-}
-
 .active .links {
   color: var(--orange);
 }
