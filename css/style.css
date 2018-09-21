@@ -140,6 +140,14 @@ body {
   justify-content: center;
 }
 
+.innerWrapper {
+  max-width: 1250px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
 .aboutWrapper {
   position: relative;
   display: flex;
@@ -194,12 +202,11 @@ body {
   position: absolute;
   width: 60%;
   top: 30%;
-  left: 0;
   right: 0;
-  margin: 0 auto;
+  
 }
 
-.aboutTitle {
+.contentTitle {
   color: var(--orange);
   margin: 0 0 20px 0;
 }
@@ -207,8 +214,8 @@ body {
 .aboutHeadline {
   position: relative;
   margin-top: 0;
-  margin: 0 0 25px -14vw;
-  font-size: 4.1vw;
+  margin: 0 0 25px -20vw;
+  font-size: 5vw;
   text-align: right;
 }
 
@@ -221,7 +228,7 @@ body {
   font-weight: 700;
 }
 
-.aboutLine {
+.contentLine {
   width: 40px;
   height: 2px;
   background-color: var(--orange);
@@ -238,8 +245,10 @@ body {
   cursor: pointer;
 }
 
-.menu {
-  height: 100vh;
+.menuWrapper {
+  background: var(--white);
+  position: relative;
+  padding-top: 50px;
 }
 
 @keyframes spin {
@@ -248,6 +257,11 @@ body {
   }
 }
 
+@media screen and (min-width: 1250px){
+  .aboutHeadline {
+    font-size: 62.5px;
+  }
+}
 
 @media screen and (max-width: 768px){
 

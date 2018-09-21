@@ -1,57 +1,63 @@
 <!DOCTYPE html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Padme.</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Padme.</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./js/scrollspy.js"></script>
-    <script type="text/javascript" src="./js/app.js"></script>
-    <script type="text/javascript" src="./js/jquery.parallax-scroll.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="wrapper" id="home">
+  <script type="text/javascript" src="./js/scrollspy.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+  <script type="text/javascript" src="./js/jquery.parallax-scroll.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+</head>
 
-      <div class="navBar">
-        <div class="navRow">
-            <a href="#home" class="brand"><img class="brandImg" src="https://www.jarrodyellets.com/images/padme/PadmeLogo.png" alt="padme logo"></a>
-            <ul class="navLinks navigation">
-              <li class="aboutLi"><a href="#about" id="aboutLink" class="links">ABOUT</a></li>
-              <li class="menuLi"><a href="#menu" id="menuLink" class="links">MENU</a></li>
-              <li class="galleryLi"><a href="#gallery"  id="galleryLink" class="links">GALLERY</a></li>
-              <li class="contactLi"><a href="#contact" id="contactLink" class="links">CONTACT</a></li>
-            </ul>
-            <a href="javascript:void(0);" class="hamburger">
-              <i class="fas fa-bars"></i>
-            </a>
-        </div>
-      </div>
+<body>
+  <div class="wrapper" id="home">
 
-      <div class="landing">
-        <div class="landingImg" data-parallax='{"y": -100, "smoothness": 10}'></div>
-        <a class="scrollDown">
-          <div class="spinner"></div>
-          <i class="fas fa-angle-down arrow"></i>
+    <div class="navBar">
+      <div class="navRow">
+        <a href="#home" class="brand"><img class="brandImg" src="https://www.jarrodyellets.com/images/padme/PadmeLogo.png"
+            alt="padme logo"></a>
+        <ul class="navLinks navigation">
+          <li class="aboutLi"><a href="#about" id="aboutLink" class="links">ABOUT</a></li>
+          <li class="menuLi"><a href="#menu" id="menuLink" class="links">MENU</a></li>
+          <li class="galleryLi"><a href="#gallery" id="galleryLink" class="links">GALLERY</a></li>
+          <li class="contactLi"><a href="#contact" id="contactLink" class="links">CONTACT</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="hamburger">
+          <i class="fas fa-bars"></i>
         </a>
       </div>
+    </div>
 
-      <div class="about target" id="about">
-        <div class="aboutWrapper">
+    <div class="landing">
+      <div class="landingImg" data-parallax='{"y": -100, "smoothness": 10}'></div>
+      <a class="scrollDown">
+        <div class="spinner"></div>
+        <i class="fas fa-angle-down arrow"></i>
+      </a>
+    </div>
+
+    <div class="about target" id="about">
+      <div class="aboutWrapper">
+        <div class="innerWrapper">
           <div class="aboutPhotos">
             <div class="aboutMedPhoto" data-parallax='{"y": -120}'></div>
             <div class="aboutSmPhoto" data-parallax='{"y": -50}'></div>
           </div>
           <div class="aboutText" data-parallax='{"y": -80}'>
             <div class="aboutTextDiv">
-              <h3 class="aboutTitle">About</h3>
+              <h3 class="aboutTitle contentTitle">About</h3>
               <h2 class="aboutHeadline">A little Paris in Philly</h2>
-              <div class="aboutLine"></div>
-              <p class="aboutTextP">Padm&egrave; is a Parisian style caf&egrave; located in the heart of Philladelphia.  If you are looking for Philly's best 
+              <div class="contentLine"></div>
+              <p class="aboutTextP">Padm&egrave; is a Parisian style caf&egrave; located in the heart of Philladelphia.
+                If you are looking for Philly's best
                 coffee, or want to try awarding winning croissants, then make Padm&egrave; your final destination.
               </p>
               <button class="aboutButton">Discover</button>
@@ -59,13 +65,28 @@
           </div>
         </div>
       </div>
-
-      <div class="menu target" id="menu">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, eaque voluptatem? In exercitationem incidunt architecto tenetur accusantium cupiditate consectetur possimus mollitia dolores, unde libero ipsam quae esse ullam assumenda velit.
-      </div>
-
-
     </div>
-  </body>
-</html>
 
+    <div class="menu target" id="menu">
+      <div class="menuWrapper">
+        <div class="menuTitleBar">
+          <h3 class="menuTitle contentTitle">Menu</h3>
+          <div class="contentLine"></div>
+        </div>
+        <div class="menuContentWrapper">
+          <div class="menuLeft">
+            <div class="menuAbout"></div>
+            <div class="menuMenu"></div>
+          </div>
+          <div class="menuRight">
+            <div class="MenuPhoto"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
