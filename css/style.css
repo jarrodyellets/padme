@@ -251,17 +251,34 @@ body {
   cursor: pointer;
 }
 
+.lineBreakWrapper {
+  position: relative;
+  background: var(--white);
+  padding: 100px 0;
+}
+
+.lineBreak {
+  width: 40px;
+  height: 2px;
+  background-color: var(--green);
+  margin: 0 auto;
+}
+
 .menuWrapper {
   background: var(--white);
   position: relative;
-  padding-top: 50px;
 }
 
 .menuTitleBar {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;;
   align-items: flex-start;
+}
+
+.titleBarText {
+  width: 40%;
 }
 
 .menuTitle {
@@ -269,10 +286,15 @@ body {
 }
 
 .menuHeadline {
-  margin: 0 0 25px 0;
+  margin: 0 -25vw 25px 0;
+  margin-top: 0;
 }
 
 .menuContentLine {
+  margin-left: 10vw;
+}
+
+.menuAbout {
   margin-left: 10vw;
 }
 
