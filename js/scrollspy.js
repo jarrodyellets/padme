@@ -118,11 +118,10 @@
                         var target = $(this).attr("href"),
                             $target = $(target);
 
-                        // If we have the element
-                        if ($target.length > 0) {
+                        var top = add($target.offset().top, options.offset);
 
-                            // Get it's scroll position
-                            var top = add($target.offset().top, options.offset);
+                        // If we have the element
+                        if ($target.length > 0 && (top + 100) != document.documentElement.scrollTop) {
                             
                             // If animation is on
                             if (options.animate) {
