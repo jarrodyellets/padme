@@ -143,9 +143,12 @@ body {
 .innerWrapper {
   max-width: 1250px;
   width: 100%;
-  display: flex;
   position: relative;
   margin: 0 auto;
+}
+
+.aboutInnerWrapper {
+  display: flex;
 }
 
 .aboutWrapper {
@@ -249,6 +252,18 @@ body {
   background: var(--white);
   position: relative;
   padding-top: 50px;
+}
+
+.menuTitleBar {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  align-items: flex-start;
+}
+
+.menuContentWrapper {
+  display: flex;
 }
 
 @keyframes spin {
