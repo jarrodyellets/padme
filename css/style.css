@@ -267,18 +267,20 @@ body {
 .menuWrapper {
   background: var(--white);
   position: relative;
+  padding-top: 25px;
 }
 
 .menuTitleBar {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;;
-  align-items: flex-start;
+  justify-content: space-between;;
+  align-items: center;
 }
 
 .titleBarText {
   width: 40%;
+  position: relative;
+  z-index: 1;
 }
 
 .menuTitle {
@@ -296,6 +298,18 @@ body {
 
 .menuAbout {
   margin-left: 10vw;
+}
+
+.menuHeaderImg {
+  position: absolute;
+  height: 70%;
+  right: 0;
+  top: 0;
+  width: 55%;
+  background-image: url("https://www.jarrodyellets.com/images/padme/menuHeaderImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .menuContentWrapper {
