@@ -343,6 +343,26 @@ body {
   color: var(--orange);
 }
 
+.menuGrid {
+  width: 100%;
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  transition: height 500ms linear;
+}
+
+.menuExpanded {
+  display: grid;
+  height: auto;
+}
+
+.menuGridItem {
+  text-align: left;
+}
+
+.menuGridPrice {
+  text-align: right;
+}
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);
