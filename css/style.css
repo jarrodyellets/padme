@@ -350,9 +350,13 @@ body {
 
 .menuGrid {
   width: 100%; 
+  padding-top: 20px;
   display: grid;
+  grid-row-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   transition: max-height 1500ms linear;
+  font-size: 1.1em;
+  font-weight: 700;
 }
 
 .menuGridItem {

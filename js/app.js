@@ -21,10 +21,18 @@ $(document).ready(function(){
 
   $('.menuMenu').click(function(){
     let id = '#' + $(this).attr('id');
-    if (($(id + ' .menuAcord').is(':visible'))){
-      $(id + ' .menuAcord').slideUp(200);
+    let menuDiv = id + ' .menuAcord';
+    if (($(menuDiv).is(':visible'))){
+      $(menuDiv).slideUp(400);
+      $(id + ' .menuItem').css('color', 'var(--green)');
+      $(id + ' .menuPlus').addClass('fa-plus');
+      $(id + ' .menuPlus').removeClass('fa-minus');
+      
     } else {
-      $(id + ' .menuAcord').slideDown(200);
+      $(menuDiv).slideDown(400);
+      $(id + ' .menuItem').css('color', 'var(--orange)');
+      $(id + ' .menuPlus').removeClass('fa-plus');
+      $(id + ' .menuPlus').addClass('fa-minus');
     }
     
   })
