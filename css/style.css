@@ -326,7 +326,7 @@ body {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--orange);
-  padding: 0 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 .menuItem {
