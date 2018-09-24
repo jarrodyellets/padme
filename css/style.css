@@ -314,6 +314,33 @@ body {
 
 .menuContentWrapper {
   display: flex;
+  width: 100%;
+}
+
+.menuLeft {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.menuMenu {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--orange);
+  padding: 0 0 20px 0;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: var(--green);
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  color: var(--orange);
 }
 
 @keyframes spin {
