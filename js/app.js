@@ -39,8 +39,8 @@ $(document).ready(function(){
 
   function scroll_to(div){
     $('html, body').animate({
-      scrollTop: $(div).offset().top
-    }, 800, 'linear');
+      scrollTop: $(div).offset().top -30
+    }, 500, 'linear');
   }
 
 });
