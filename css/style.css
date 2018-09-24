@@ -343,16 +343,16 @@ body {
   color: var(--orange);
 }
 
-.menuGrid {
-  width: 100%;
+.menuAcord {
   display: none;
-  grid-template-columns: repeat(2, 1fr);
-  transition: height 500ms linear;
+  height: auto;
 }
 
-.menuExpanded {
+.menuGrid {
+  width: 100%; 
   display: grid;
-  height: auto;
+  grid-template-columns: repeat(2, 1fr);
+  transition: max-height 1500ms linear;
 }
 
 .menuGridItem {

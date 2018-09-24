@@ -21,7 +21,12 @@ $(document).ready(function(){
 
   $('.menuMenu').click(function(){
     let id = '#' + $(this).attr('id');
-    $(id + ' .menuGrid').addClass('menuExpanded');
+    if (($(id + ' .menuAcord').is(':visible'))){
+      $(id + ' .menuAcord').slideUp(200);
+    } else {
+      $(id + ' .menuAcord').slideDown(200);
+    }
+    
   })
 
   function scroll_to(div){
