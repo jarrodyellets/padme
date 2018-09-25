@@ -305,10 +305,10 @@ body {
   height: 70%;
   right: 0;
   top: 0;
-  width: 55%;
-  background-image: url("https://www.jarrodyellets.com/images/padme/menuHeaderImg.png");
-  background-size: cover;
-  background-position: center;
+  width: 45%;
+  background-image: url("https://www.jarrodyellets.com/images/padme/organicLabels.png");
+  background-size: contain;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
