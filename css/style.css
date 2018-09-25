@@ -277,6 +277,22 @@ body {
   align-items: center;
 }
 
+.menuTitleBar:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://www.jarrodyellets.com/images/padme/menuHeaderImg.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  filter: opacity(.1) sepia(50%);
+}
+
 .titleBarText {
   width: 40%;
   position: relative;
@@ -300,25 +316,13 @@ body {
   margin-left: 10vw;
 }
 
-.menuHeaderImg {
-  position: absolute;
-  height: 75%;
-  right: 0;
-  top: 0;
-  width: 45%;
-  background-image: url("https://www.jarrodyellets.com/images/padme/menuHeaderImg.png");
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-}
-
 .menuContentWrapper {
   display: flex;
   width: 100%;
 }
 
 .menuLeft {
-  width: 50%;
+  width: 40%;
   padding: 0 20px;
 }
 
@@ -368,7 +372,7 @@ body {
 }
 
 .menuOrganic {
-  height: 5vw;
+  height: 3vw;
   margin-top: 50px;
   background-image: url("https://www.jarrodyellets.com/images/padme/organicLabels.png");
   background-size: contain;
@@ -378,14 +382,18 @@ body {
 
 .menuRight {
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menuPhoto {
+  position: relative;
   height: 25vw;
+  max-height: 400px;
   width: 100%;
-  background-image: url("https://www.jarrodyellets.com/images/padme/coldMenu.png");
+  background-image: url("https://www.jarrodyellets.com/images/padme/hotMenu.png");
   background-size: contain;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
