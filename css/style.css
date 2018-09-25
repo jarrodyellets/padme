@@ -302,11 +302,11 @@ body {
 
 .menuHeaderImg {
   position: absolute;
-  height: 70%;
+  height: 75%;
   right: 0;
   top: 0;
   width: 45%;
-  background-image: url("https://www.jarrodyellets.com/images/padme/organicLabels.png");
+  background-image: url("https://www.jarrodyellets.com/images/padme/menuHeaderImg.png");
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -365,6 +365,28 @@ body {
 
 .menuGridPrice {
   text-align: right;
+}
+
+.menuOrganic {
+  height: 5vw;
+  margin-top: 50px;
+  background-image: url("https://www.jarrodyellets.com/images/padme/organicLabels.png");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.menuRight {
+  width: 50%;
+}
+
+.menuPhoto {
+  height: 25vw;
+  width: 100%;
+  background-image: url("https://www.jarrodyellets.com/images/padme/coldMenu.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @keyframes spin {
