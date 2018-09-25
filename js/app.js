@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  let imgArr = ['#menuPlaceImg'];
+
+  $('#menuPlaceImg').fadeIn();
+
   $('.navigation').scrollspy({animate: true, offset: -100});
 
   $('.brand').click(function(){
@@ -27,13 +31,27 @@ $(document).ready(function(){
       $(id + ' .menuItem').css('color', 'var(--green)');
       $(id + ' .menuPlus').addClass('fa-plus');
       $(id + ' .menuPlus').removeClass('fa-minus');
+      if(imgArr.indexOf(id + 'Img') == imgArr.length - 1){
+        $(imgArr[imgArr.length - 1]).fadeOut(1000);
+        imgArr.pop();
+        $(imgArr[imgArr.length - 1]).fadeIn(1000);
+      } else {
+        imgArr.splice(imgArr.indexOf(id + 'Img'), 1);
+        console.log(imgArr);
+      }
+
       
     } else {
       $(menuDiv).slideDown(400);
+      $(imgArr[imgArr.length - 1]).fadeOut(1000);
+      imgArr.push(id + 'Img');
       $(id + ' .menuItem').css('color', 'var(--orange)');
       $(id + ' .menuPlus').removeClass('fa-plus');
       $(id + ' .menuPlus').addClass('fa-minus');
+      img = id + 'Img';
+      $(imgArr[imgArr.length - 1]).fadeIn(1000);
     }
+
     
   })
 

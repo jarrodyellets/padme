@@ -382,21 +382,20 @@ body {
 }
 
 .menuRight {
+  position: relative;
   width: 50%;
-  display: flex;
-  justify-content: flex-end;
 }
 
-.menuPhoto {
-  position: relative;
-  height: 25vw;
+.menuImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
   max-height: 400px;
-  width: 100%;
-  background-image: url("https://www.jarrodyellets.com/images/padme/hotMenu.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: opacity(.7) contrast(150%);
+  width: auto;
+  display: none;
+  filter: opacity(.7) contrast(120%);
 }
 
 @keyframes spin {
