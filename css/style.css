@@ -383,7 +383,7 @@ body {
 
 .menuRight {
   position: relative;
-  width: 50%;
+  width: 60%;
 }
 
 .menuImg {
@@ -395,7 +395,7 @@ body {
   max-height: 400px;
   width: auto;
   display: none;
-  filter: opacity(.7) contrast(120%);
+  filter: contrast(110%);
 }
 
 @keyframes spin {
