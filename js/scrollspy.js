@@ -121,7 +121,7 @@
                         var top = add($target.offset().top, options.offset);
 
                         // If we have the element
-                        if ($target.length > 0 && (top + 70) != document.documentElement.scrollTop) {
+                        if ($target.length > 0 && (top + 120) != document.documentElement.scrollTop) {
                             
                             // If animation is on
                             if (options.animate) {
