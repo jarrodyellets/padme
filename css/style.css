@@ -410,12 +410,21 @@ body {
 }
 
 .stageLeft {
+  position: relative;
   width: 55%;
   height: 45vw;
   background-image: url("https://www.jarrodyellets.com/images/padme/stageLg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.stageMdImg {
+  position: absolute;
+  bottom: 3%;
+  left: 40%;
+  width: 70%;
+  filter: grayscale(60%);
 }
 
 .stageRight {
