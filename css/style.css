@@ -402,7 +402,6 @@ body {
   position: relative;
   background: var(--white);
   padding: 100px 0;
-  height: 100vh;
 }
 
 .stageContentWrapper {
@@ -412,6 +411,11 @@ body {
 
 .stageLeft {
   width: 55%;
+  height: 45vw;
+  background-image: url("https://www.jarrodyellets.com/images/padme/stageLg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .stageRight {
@@ -421,7 +425,7 @@ body {
 
 .stageTextDiv {
   position: absolute;
-  top: 40%;
+  top: 15%;
   right: 30%;
   width: 60%;
 }
