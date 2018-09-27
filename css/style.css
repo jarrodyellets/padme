@@ -398,6 +398,34 @@ body {
   filter: contrast(110%);
 }
 
+.stageWrapper {
+  position: relative;
+  background: var(--white);
+  padding: 100px 0;
+  height: 100vh;
+}
+
+.stageContentWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.stageLeft {
+  width: 55%;
+}
+
+.stageRight {
+  position: relative;
+  width: 45%;
+}
+
+.stageTextDiv {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  width: 60%;
+}
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);

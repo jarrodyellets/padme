@@ -23,6 +23,10 @@ $(document).ready(function(){
     scroll_to('#about');
   })
 
+  $("#stageLink").click(function(){
+    scroll_to('#stage');
+  })
+
   $('.menuMenu').click(function(){
     let id = '#' + $(this).attr('id');
     let menuDiv = id + ' .menuAcord';
