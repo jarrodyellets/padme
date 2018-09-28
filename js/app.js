@@ -27,6 +27,10 @@ $(document).ready(function(){
     scroll_to('#stage');
   })
 
+  $("#contactLink").click(function(){
+    scroll_to('#contact');
+  })
+
   $('.menuMenu').click(function(){
     let id = '#' + $(this).attr('id');
     let menuDiv = id + ' .menuAcord';
