@@ -440,11 +440,36 @@ body {
   width: 45%;
 }
 
+.stageText {
+  position: relative;
+  height: 50%;
+}
+
 .stageTextDiv {
   position: absolute;
   top: 15%;
   right: 30%;
   width: 60%;
+}
+
+.stageSchedule {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 50px;
+}
+
+.stageScheduleBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.bandImg {
+  width: 35%;
 }
 
 @keyframes spin {
