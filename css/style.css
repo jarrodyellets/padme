@@ -468,8 +468,20 @@ body {
   padding: 0 30px;
 }
 
+.stageDate {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
 .bandImg {
   width: 35%;
+  filter: grayscale(80%);
+}
+
+.stageHeadliner {
+  font-size: 1.4em;
+  font-weight: 700;
 }
 
 @keyframes spin {
