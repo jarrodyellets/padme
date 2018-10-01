@@ -490,6 +490,31 @@ body {
   padding: 100px 0;
 }
 
+.contactTextWrapper {
+  display: flex;
+}
+
+.contactLeft {
+  width: 35%;
+}
+
+.contactRight {
+  position: relative;
+  width: 65%;
+  height: 25vw;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+}
+
+.mapAfter {
+  display: none;
+}
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);
