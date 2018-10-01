@@ -479,6 +479,7 @@ body {
   font-size: 1.2em;
   font-weight: 700;
   padding-left: 30px;
+  margin-bottom: 5px;
 }
 
 .bandImg {
@@ -499,8 +500,31 @@ body {
 }
 
 .contactTitleBar {
+  position: relative;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;;
+  align-items: center;
+}
+
+.contactTitleBarText {
+  width: 40%;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+.contactTitleBar:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  top: 0;
+  right: 0;
+  background-image: url("https://www.jarrodyellets.com/images/padme/contactHeader.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  filter: opacity(.1) sepia(50%);
 }
 
 .contactIcons {
@@ -518,6 +542,10 @@ body {
 
 .contactLeft {
   width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactRight {
