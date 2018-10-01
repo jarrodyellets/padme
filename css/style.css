@@ -267,7 +267,7 @@ body {
 .menuWrapper {
   background: var(--white);
   position: relative;
-  padding: 100px 0;
+  padding: 80px 0 100px 0;
 }
 
 .menuTitleBar {
@@ -496,7 +496,7 @@ body {
 .contactWrapper {
   background: var(--white);
   position: relative;
-  padding: 100px 0;
+  padding: 80px 0 100px 0;
 }
 
 .contactTitleBar {
