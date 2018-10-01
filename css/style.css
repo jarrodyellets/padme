@@ -468,6 +468,13 @@ body {
   padding: 0 30px;
 }
 
+.stageScheduleLeftBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+
 .stageDate {
   font-size: 1.2em;
   font-weight: 700;
@@ -475,8 +482,9 @@ body {
 }
 
 .bandImg {
-  width: 35%;
+  width: 50%;
   filter: grayscale(80%);
+  margin-right: 10px;
 }
 
 .stageHeadliner {
@@ -488,6 +496,20 @@ body {
   background: var(--white);
   position: relative;
   padding: 100px 0;
+}
+
+.contactTitleBar {
+  display: flex;
+  justify-content: space-between
+}
+
+.contactIcons {
+  width: 45%;
+}
+
+.social {
+  font-size: 40px;
+  color: var(--black);
 }
 
 .contactTextWrapper {

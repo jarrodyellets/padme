@@ -59,8 +59,6 @@ $(document).ready(function(){
       img = id + 'Img';
       $(imgArr[imgArr.length - 1]).fadeIn(1000);
     }
-
-    
   })
 
   $('.mapBefore').mouseenter(function(){
