@@ -235,6 +235,10 @@ body {
   font-weight: 700;
 }
 
+p {
+  margin: 0;
+}
+
 .contentLine {
   width: 40px;
   height: 2px;
@@ -446,6 +450,7 @@ body {
 
 .stageHeadline {
   margin-left: -20vw;
+  margin-bottom: 25px;
   text-align: right;
 }
 
