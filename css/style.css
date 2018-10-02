@@ -245,7 +245,8 @@ p {
   background-color: var(--orange);
 }
 
-.aboutButton {
+.button {
+  position: relative;
   border: 2px solid var(--orange);
   color: var(--black);
   background-color: var(--white);
@@ -254,6 +255,28 @@ p {
   font-weight: 700;
   font-family: 'Source Sans Pro';
   cursor: pointer;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.buttonBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  background: var(--green);
+  transition: all .3s ease;
+}
+
+.buttonSpan {
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  color: var(--white);
 }
 
 .lineBreakWrapper {
@@ -634,6 +657,26 @@ p {
 
 .mapAfter {
   display: none;
+}
+
+@keyframes buttonOver {
+  0% {
+    transform: translate(0%);
+  }
+
+  100% {
+    transform: translate(100%);
+  }
+}
+
+@keyframes buttonOut {
+  0% {
+    transform: translate(100%);
+  }
+
+  100% {
+    transform: translate(200%);
+  }
 }
 
 @keyframes spin {

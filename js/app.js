@@ -61,6 +61,14 @@ $(document).ready(function(){
     }
   })
 
+  $('.button').mouseenter(function(){
+    $('.buttonBackground', this).css('animation', 'buttonOver .3s forwards');
+  })
+
+  $('.button').mouseleave(function(){
+    $('.buttonBackground', this).css('animation', 'buttonOut .3s');
+  })
+
   $('.mapBefore').mouseenter(function(){
     $('.mapAfter').fadeIn();
   })
