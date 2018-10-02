@@ -405,8 +405,28 @@ body {
 }
 
 .stageContentWrapper {
-  display: flex;
   width: 100%;
+}
+
+.stageTitleBar {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.stageTitleBar:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  top: 0;
+  left: 0;
+  background-image: url("https://www.jarrodyellets.com/images/padme/stageHeader.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  filter: opacity(.1) sepia(50%);
 }
 
 .stageLeft {
@@ -435,21 +455,33 @@ body {
   filter: grayscale(60%);
 }
 
-.stageRight {
+.stageLower {
   position: relative;
-  width: 45%;
+  width: 60%;
 }
 
-.stageText {
-  position: relative;
-  height: 50%;
-}
 
 .stageTextDiv {
-  position: absolute;
-  top: 15%;
-  right: 30%;
-  width: 60%;
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+.stageTitle {
+  margin-left: 40%;
+}
+
+.stageHeadline {
+  margin-left: -20vw;
+  text-align: right;
+}
+
+.stageLine {
+  margin-left: 40%;
+}
+
+.stageTextP {
+  margin-left: 40%;
 }
 
 .stageSchedule {
@@ -457,7 +489,7 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-row-gap: 50px;
+  grid-row-gap: 40px;
 }
 
 .stageScheduleBox {
@@ -483,7 +515,7 @@ body {
 }
 
 .bandImg {
-  width: 50%;
+  width: 40%;
   filter: grayscale(80%);
   margin-right: 10px;
 }
