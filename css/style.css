@@ -579,15 +579,6 @@ p {
   filter: opacity(.1) sepia(50%);
 }
 
-.contactIcons {
-  width: 45%;
-}
-
-.social {
-  font-size: 40px;
-  color: var(--black);
-}
-
 .contactTextWrapper {
   display: flex;
 }
@@ -597,7 +588,35 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin-left: 10vw;
+}
+
+.contactAddressHeader {
+  font-size: 1.1em;
+  color: var(--green);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contactData {
+  font-size: .9em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.contactStreetWrapper {
+  margin-bottom: 20px;
+}
+
+.social {
+  font-size: 1.8em;
+  color: var(--green);
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+}
+
+.social:hover {
+  color: var(--orange);
 }
 
 .contactRight {
