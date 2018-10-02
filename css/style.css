@@ -429,37 +429,10 @@ body {
   filter: opacity(.1) sepia(50%);
 }
 
-.stageLeft {
-  position: relative;
-  width: 55%;
-  height: 45vw;
-  background-image: url("https://www.jarrodyellets.com/images/padme/stageLg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.stageSmImg {
-  position: absolute;
-  bottom: 45%;
-  left: 0;
-  width: 60%;
-  filter: grayscale(60%);
-}
-
-.stageMdImg {
-  position: absolute;
-  bottom: 3%;
-  right: 0;
-  width: 70%;
-  filter: grayscale(60%);
-}
-
 .stageLower {
   position: relative;
-  width: 60%;
+  display: flex;
 }
-
 
 .stageTextDiv {
   width: 40%;
@@ -486,6 +459,7 @@ body {
 
 .stageSchedule {
   position: relative;
+  width: 55%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -524,6 +498,47 @@ body {
   font-size: 1.4em;
   font-weight: 700;
 }
+
+.stageCoupon {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stageCouponWrapper {
+  height: 90%;
+  width: 44%;
+  border: 2px dashed var(--orange);
+  padding: 20px;
+  margin-left: 40%;
+}
+
+.stageCouponCoffee {
+  font-size: 2.3em;
+  font-weight: 700;
+  text-align: center;
+  color: var(--green);
+}
+
+.stageCouponAbout {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.stageCouponImg {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  filter: contrast(110%) grayscale(90%);
+}
+
+.stageCouponExcept {
+  font-size: .8em;
+  text-align: center;
+}
+
 
 .contactWrapper {
   background: var(--white);
