@@ -167,11 +167,17 @@
                         if(pos < $('.about').offset().top){
                             resetClasses(links);
                         }
+
+                        if(pos > $('.contact').offset().top){
+                            $('.mapAfter').fadeIn(1000);
+                        }
                         
                         if (position.top >= current.top && position.top < current.bottom) {
                             
                             // get our element
                             var hash = current.hash;
+
+                            $(hash + 'Line').addClass('contentLineWidth');
 
                             // Get the link
                             link = findLink(links, hash);

@@ -240,9 +240,14 @@ p {
 }
 
 .contentLine {
-  width: 40px;
+  width: 0;
   height: 2px;
   background-color: var(--orange);
+  transition: all .5s ease-in;
+}
+
+.contentLineWidth {
+  width: 40px;
 }
 
 .button {
