@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  padding: 25px;
+  padding: 25px 25px 0 25px;
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
@@ -663,6 +663,62 @@ p {
 
 .mapAfter {
   display: none;
+}
+
+footer {
+  background-color: var(--green);
+}
+
+.footerWrapper {
+  position: relative;
+	width: 100%;
+	height: 80px;
+	color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1
+}
+
+.footerAddress {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  padding-left: 30px;
+  margin-right: auto;
+}
+
+.author {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footerContact {
+	margin-left: 30px;
+}
+
+.footerRight {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.footerSocial {
+	text-align: center;
+	padding-right: 30px;
+}
+
+.socialTitle {
+  margin-bottom: 5px;
+}
+
+.socialFoot {
+	font-size: 1.8em;
+	margin: 0 10px;
+	cursor: pointer;
 }
 
 @keyframes buttonOver {
