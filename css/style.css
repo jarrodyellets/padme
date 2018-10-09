@@ -73,7 +73,7 @@ body {
   color: var(--green);
 }
 
-.hamburger {
+.hamburger, .navClose {
   display: none;
   text-decoration: none;
   color: (--black);
@@ -779,11 +779,31 @@ footer {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    background: var(--white);
+    padding-left: 20px;
+    transition: all 500ms;
+  }
+
+  .navLinks > li {
+    padding: 10px 0;
+  }
+
+  .navWidth {
+    right: 0;
+  }
+
+  .navClose {
+    text-align: right;
+    font-size: 20px;
+    display: block;
+    padding-right: 20px;
+    color: var(--black);
   }
 
   .hamburger {
     display: block;
     color: var(--black);
     font-size: 20px;
+    text-align: right;
   }
 }

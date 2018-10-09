@@ -2,6 +2,14 @@ $(document).ready(function(){
 
   let imgArr = ['#menuPlaceImg'];
 
+  $('.hamburger').click(function(){
+    $('.navLinks').addClass('navWidth');
+  });
+
+  $('.navClose').click(function(){
+    $('.navLinks').removeClass('navWidth');
+  });
+
   $('#menuPlaceImg').fadeIn();
 
   $('.navigation').scrollspy({animate: true, offset: -100});
