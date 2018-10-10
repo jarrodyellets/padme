@@ -39,6 +39,12 @@ $(document).ready(function(){
     scroll_to('#contact');
   })
 
+  if ($(window).width() > 768){
+    $('.transform').removeClass('no-transform');
+  } else {
+    $('.transform').addClass('no-transform');
+  }
+
   $('.menuMenu').click(function(){
     let id = '#' + $(this).attr('id');
     let menuDiv = id + ' .menuAcord';
