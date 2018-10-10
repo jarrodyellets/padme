@@ -301,6 +301,7 @@ p {
   background: var(--white);
   position: relative;
   padding: 80px 0 100px 0;
+  width: 100%;
 }
 
 .menuTitleBar {
@@ -844,6 +845,35 @@ footer {
   }
 
   .aboutSmPhoto {
+    display: none;
+  }
+
+  .titleBarText {
+    width: 100%;
+  }
+
+  .menuTitleBar:before {
+    background-image: none;
+  }
+
+  .leftTitle {
+    margin: 0 0 20px 0;
+  }
+
+  .leftContentLine {
+    margin: 0;
+  }
+
+  .leftAbout {
+    width: 100%;
+    margin: 0;
+  }
+
+  .menuLeft {
+    width: 100%;
+  }
+
+  .menuRight {
     display: none;
   }
 }
