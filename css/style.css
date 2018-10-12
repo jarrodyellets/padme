@@ -652,17 +652,16 @@ p {
 .contactRight {
   position: relative;
   width: 65%;
-  height: 25vw;
 }
 
 .map {
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 90%;
 }
 
 .mapAfter {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
 }
 
@@ -940,6 +939,10 @@ footer {
     width: 60%;
   }
 
+  .stageCouponCoffee {
+    font-size: 2em;
+  }
+
   .contactTextWrapper {
     flex-direction: column;
   }
@@ -964,7 +967,45 @@ footer {
 
   .map {
     width: 100%;
-    margin-bottom: 100px;
   }
+
+  .footerWrapper {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--green);
+  }
+
+  .footerAddress {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 5px;
+  }
+
+  .footerContact {
+    margin: 5px 0;
+  }
+  
+  .footerRight {
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .footerSocial {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .socialTitle {
+    margin-left: 5px;
+  }
+
+  .author {
+    bottom: 5px;
+    left: 5px;
+    top: auto;
+    transform: none;
+  }
+
 
 }
