@@ -943,6 +943,10 @@ footer {
     font-size: 2em;
   }
 
+  .contactWrapper {
+    padding-bottom: 20px;
+  }
+
   .contactTextWrapper {
     flex-direction: column;
   }
@@ -967,6 +971,10 @@ footer {
 
   .map {
     width: 100%;
+  }
+
+  .mapAfter {
+    display: inline;
   }
 
   .footerWrapper {
