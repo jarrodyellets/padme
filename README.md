@@ -10,7 +10,7 @@
 2. Open in your favorite text editor
 
 ## Features
-1. eCommerce site allows users to search and buy mattresses
+1. Website for cafe/music venue, Padme
 
 ## Technologies
 1. HTML
