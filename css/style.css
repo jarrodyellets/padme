@@ -853,7 +853,7 @@ footer {
     margin: 0;
   }
 
-  .menuTitleBar:before {
+  .menuTitleBar:before, .stageTitleBar:before {
     background-image: none;
   }
 
@@ -882,4 +882,62 @@ footer {
   .menuRight {
     display: none;
   }
+
+  .stageTextDiv {
+    width: 100%;
+    margin: 0;
+  }
+
+  .stageTitle {
+    margin: 0 0 20px 0;
+  }
+
+  .stageLine, .stageTextP {
+    margin: 0;
+  }
+
+  .stageLower {
+    flex-direction: column;
+  }
+
+  .stageSchedule {
+    width: 100%;
+  }
+
+  .stageDate {
+    padding: 0;
+  }
+
+  .bandImg {
+    width: 100%;
+    margin: 0;
+  }
+
+  .stageScheduleBox {
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+  }
+  
+  .stageScheduleLeftBox {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .stageScheduleRight {
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  .stageCoupon {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .stageCouponWrapper {
+    margin: 0 auto;
+    width: 60%;
+  }
+
 }
