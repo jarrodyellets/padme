@@ -853,7 +853,7 @@ footer {
     margin: 0;
   }
 
-  .menuTitleBar:before, .stageTitleBar:before {
+  .menuTitleBar:before, .stageTitleBar:before, .contactTitleBar:before {
     background-image: none;
   }
 
@@ -883,7 +883,7 @@ footer {
     display: none;
   }
 
-  .stageTextDiv {
+  .stageTextDiv, .contactTitleBarText {
     width: 100%;
     margin: 0;
   }
@@ -938,6 +938,33 @@ footer {
   .stageCouponWrapper {
     margin: 0 auto;
     width: 60%;
+  }
+
+  .contactTextWrapper {
+    flex-direction: column;
+  }
+
+  .contactLeft {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contactDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social {
+    margin-bottom: 20px;
+  }
+
+  .contactRight {
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+    margin-bottom: 100px;
   }
 
 }
